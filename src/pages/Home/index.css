@@ -1,0 +1,28 @@
+.home-container {
+    border-color: green;
+    border-style: solid;
+    padding: 10px;
+}
+
+.home-top-card-container {
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+}
+
+.home-content-container {
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.home-card-content-image-container {
+    border-style: solid;
+    border-color: darkgray;
+    margin-top: 10px;
+}
+
+.home-bottom-content-container {
+    border-style: solid;
+    border-color: red;
+    margin-top: 10px;
+}
