@@ -8,29 +8,22 @@ const Home = () => {
       <Navbar />
       <div className="home-container">
         <div className="home-top-card-container">
-          <div className="home-content-container">
-            <div className="home-card-content-title">
-              <h1>O carro perfeito para você</h1>
-            </div>
-            <div className="home-card-content-subtitle">
-              <h6>
-                Conheça nossos carros e dê mais um passo na realização do seu
-                sonho
-              </h6>
-            </div>
+          <div className="home-content-text-container">
+            <h1>O carro perfeito para você</h1>
+            <p>
+              Conheça nossos carros e dê mais um passo na realização do seu
+              sonho
+            </p>
           </div>
-          <div className="home-card-content-image-container">
+          <div className="home-image-container">
             <MainImage />
           </div>
         </div>
-
-        <div className="home-bottom-content-container">
-          <div className="home-bottom-content-button">
-            <button className='b'>VER CATÁLOGO</button>
-          </div>
-          <div className="home-bottom-content-text">
-            <p>Comece agora a navegar</p>
-          </div>
+        <div className="home-bottom-card-container">
+          <button type="button" className="btn">
+            VER CATÁLOGO
+          </button>
+          <p>Comece agora a navegar</p>
         </div>
       </div>
     </>
