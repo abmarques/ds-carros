@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
         <a href="link" className="nav-logo-text">
-          <h4>DS Catalog</h4>
+          <h4>Carros Top</h4>
         </a>
         <button
           className="navbar-toggler"
@@ -24,11 +24,11 @@ const Navbar = () => {
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
               <a href="link" className="active">
-                HOME
+                Home
               </a>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <a href="link">Catálogo</a>
             </li>
           </ul>
         </div>
