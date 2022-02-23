@@ -1,0 +1,15 @@
+.catalog-home {
+    padding: 0 13px;
+}
+
+@media (min-width: 400px) {
+    .catalog-home {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .catalog-home {
+        padding: 0 150px;
+    }
+}

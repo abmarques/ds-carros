@@ -1,0 +1,100 @@
+.product-card {
+  margin-bottom: 30px;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.top-card-container {
+  text-align: center;
+  padding: 14px 0;
+}
+
+.top-card-container img {
+  width: 220, 72px;
+  height: 165px;
+}
+
+.bottom-card-container {
+  text-align: center;
+  font-size: 18px;
+}
+
+.bottom-card-container h6 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.bottom-card-container p {
+  padding: 13px 20px;
+  text-align: left;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-style: italic;
+  color: #585858;
+  margin: 0;
+}
+
+.bottom-card-container button {
+  background-color: #00285f;
+  color: #ffffff;
+  width: 220px;
+  border-radius: 5px;
+  padding: 10px 60px;
+  margin: 20px 18px 15px 18px;
+}
+
+.bottom-card-container button:hover {
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .bottom-card-container p {
+    font-size: 0.66em;
+  }
+}
+
+@media (min-width: 768px) {
+  .bottom-card-container p {
+    font-size: 0.78em;
+  }
+
+  .bottom-card-container button {
+    width: 307px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bottom-card-container button {
+    width: 257.31px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bottom-card-container button {
+    width: 266px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bottom-card-container button {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .bottom-card-container button {
+    width: 260px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .bottom-card-container p {
+    padding: 13px 25px;
+    font-size: 0.95em;
+  }
+
+  .bottom-card-container button {
+    width: 340px;
+  }
+}
