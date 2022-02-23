@@ -1,15 +1,9 @@
-import Catalog from 'pages/Catalog';
 import './assets/styles/custom.scss';
 import './App.css';
-import Navbar from 'components/Navbar';
+import Routes from 'Routes';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Catalog />
-    </>
-  );
+  return <Routes />;
 }
 
 export default App;
