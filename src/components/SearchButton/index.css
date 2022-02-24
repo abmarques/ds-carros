@@ -1,0 +1,143 @@
+.search-button-container {
+  background-color: #ededed;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 23px 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 86px;
+}
+
+.search-button-container input {
+  width: 190px;
+  height: 100%;
+  padding: 12px 5px 13px 14px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  color: #000000;
+}
+
+.search-button-container input::placeholder {
+  color: #a7a7a7;
+}
+
+.search-button-container button {
+  width: 70px;
+  background-color: #00285f;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+  color: #ffff;
+  padding: 10px;
+  height: 100%;
+}
+
+@media (min-width: 375px) {
+  .search-button-container input {
+    width: 230px;
+  }
+
+  .search-button-container button {
+    width: 90px;
+  }
+}
+
+@media (min-width: 475px) {
+  .search-button-container input {
+    width: 280px;
+  }
+
+  .search-button-container button {
+    width: 120px;
+  }
+}
+
+@media (min-width: 575px) {
+  .search-button-container input {
+    width: 350px;
+  }
+
+  .search-button-container button {
+    width: 156px;
+  }
+}
+
+@media (min-width: 675px) {
+  .search-button-container input {
+    width: 400px;
+  }
+
+  .search-button-container button {
+    width: 176px;
+  }
+}
+
+@media (min-width: 765px) {
+  .search-button-container input {
+    width: 500px;
+  }
+
+  .search-button-container button {
+    width: 196px;
+  }
+}
+
+@media (min-width: 850px) {
+  .search-button-container input {
+    width: 570px;
+  }
+
+  .search-button-container button {
+    width: 210px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-button-container {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .search-button-container input {
+    width: 584px;
+  }
+
+  .search-button-container button {
+    width: 174px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .search-button-container {
+    padding-left: 67px;
+    padding-right: 67px;
+  }
+
+  .search-button-container input {
+    width: 620px;
+  }
+
+  .search-button-container button {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .search-button-container input {
+    width: 750px;
+  }
+
+  .search-button-container button {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1920px) {
+    .search-button-container input {
+      width: 1000px;
+    }
+  
+    .search-button-container button {
+      width: 220px;
+    }
+  }
+  

@@ -8,10 +8,7 @@
 }
 
 .main-menu {
-  display: flex;
   font-size: 18px;
-  width: 190px;
-  justify-content: space-between;
 }
 
 .main-menu a {
@@ -20,12 +17,6 @@
 
 .main-menu a.active {
   font-weight: 700;
-}
-
-.main-nav-menu {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 280px;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -46,9 +37,17 @@
     padding: 0 12px 0 0;
   }
 
+  .main-menu {
+    font-size: 18px;
+    width: 190px;
+  }
+
   .main-nav-menu {
+    display: flex;
+    justify-content: flex-end;
     padding-right: 30px;
   }
+
   .main-menu a {
     padding-left: 41px;
   }

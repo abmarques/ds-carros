@@ -1,9 +1,11 @@
 import ProductCard from 'components/ProductCard';
+import SearchButton from 'components/SearchButton';
 import './index.css';
 
 const Catalog = () => {
   return (
-    <div className="my-4 catalog-home">
+    <div className="catalog-home">
+      <SearchButton />
       <div className="row">
         <div className="col-sm-6 col-lg-4 col-xxl-3">
           <ProductCard />
